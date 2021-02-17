@@ -1,3 +1,7 @@
+package com.konman01.array;
+
+import java.util.Arrays;
+
 public class Basics {
 	
 	
@@ -20,6 +24,8 @@ public class Basics {
 		System.out.println(Integer.MAX_VALUE);
 		
 		System.out.println(Integer.MIN_VALUE);
+		
+		int[] arr2 = new int[] {1, 4};
 		
 
 		return;

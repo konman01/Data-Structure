@@ -51,6 +51,15 @@ public class Basics {
 		}
 		
 		
+		HashMap<Integer, Integer> map1 = new HashMap<>();
+		
+		map1.put(1, 2);
+		
+		Integer val = 1;
+		
+		System.out.println(map1.getOrDefault(2, 0));
+		
+		
 		
 	}
 
