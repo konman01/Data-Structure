@@ -45,19 +45,32 @@ public class Basics {
 		System.out.println("Removed Element is:"+removedval);
 		
 		
-		Integer[] arr = (Integer[])list.toArray(); 
+		Object[] arr = list.toArray(); 
 		
 		
 		for(int i = 0; i <arr.length; i++) {
 					
-			System.out.println(arr[i]);
+			System.out.println((Integer)arr[i]);
 		}
 		
 		String str = list.toString();
 		
 		System.out.println(str);
-
 		
+		// Defining list under list
+		List<List<Integer>> list1 = new ArrayList<>();
+		list1.add(list);
+		
+		for(int i =0; i<list1.size(); i++) {
+			
+			List<Integer> list_local = list1.get(i);
+			
+			for(int j = 0; j<list_local.size(); j++) {
+				System.out.println(list_local.get(j));
+			}
+			
+		}
+
 		return;
 	}
 
