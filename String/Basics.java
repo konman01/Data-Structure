@@ -51,6 +51,22 @@ public class Basics {
 		// Chwck if the Character is Letter or Digit
 		System.out.println(Character.isLetterOrDigit('-'));
 		
+		System.out.println(Character.isLetter('-')); // False
+		
+		System.out.println(Character.isLetter('a')); // true
+		
+		System.out.println(Character.isLetter('1')); // False
+		
+		System.out.println(Character.isLetter('B')); // true
+		
+		// to Trim the white Spaces
+		String name = "   Manjunatha  ";
+		System.out.println(name.trim());
+		
+		// To covert the String to String Array
+		
+		
+		
 		
 	}// end of main function
 	
